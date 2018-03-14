@@ -10,7 +10,7 @@ cp -a ${BOSH_COMPILE_TARGET}/common/* ${BOSH_INSTALL_TARGET}/common
 export GOROOT=/var/vcap/packages/golang_harbor/go
 export PATH=${GOROOT}/bin:${PATH}
 
-VERSION=v1.2.0
+VERSION=v1.4.0
 PACKAGE_NAME=github.com/vmware/harbor
 mkdir -p ${BOSH_INSTALL_TARGET}/src/${PACKAGE_NAME}
 cp -a ${BOSH_COMPILE_TARGET}/${PACKAGE_NAME}/* ${BOSH_INSTALL_TARGET}/src/${PACKAGE_NAME}
